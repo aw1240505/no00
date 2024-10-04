@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import url("common.css");
+body {
+    color: #2b2a27;
+    font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+  }
+  img {
+    max-width: 100%;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    color: #2b2a27;
+  }
+  #mainvisual img{
+    width: 100%;
+    height: 100vh;
+    object-position: center top;
+  }
+  ul{
+    display: flex;
+  }
+  #re{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+  }
+  #lin{
+    font-size: large;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+  }
+  #lin p{
+    width: 240px;
+    border: 1px solid #000;
+    padding: 10px;
+    display: inline-block;
+  }
+footer{
+  text-align: center;
+  font-size: large;
+  padding: 30px 0px 30px 0px;
+}
+@media screen and (max-width:768px){
+  #mainvisual img{
+    object-fit: cover;
+  }
+  ul{
+    display: block;
+  }
+}
